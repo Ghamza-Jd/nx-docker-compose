@@ -27,6 +27,9 @@
     ]
   },
   "projects": {
+    "liblob": {
+      "tags": []
+    },
     "propo": {
       "tags": []
     }

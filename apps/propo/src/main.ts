@@ -4,11 +4,12 @@
  */
 
 import * as express from 'express';
+import { liblob } from '@pro/liblob';
 
 const app = express();
 
 app.get('/api', (req, res) => {
-  res.send({ message: 'Welcome to propo!' });
+  res.send({ message: liblob() + ' hi' });
 });
 
 const port = process.env.port || 3333;
